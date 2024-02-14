@@ -1,0 +1,57 @@
+-- Checking for module 'grpc++'
+--   Package 'grpc++', required by 'virtual:world', not found
+-- Build spdlog: 1.11.0
+-- Build type: Release
+-- WASI-NN GGML LLAMA backend: Disable LLAMA_CUBLAS
+-- WASI-NN GGML LLAMA backend: Disable LLAMA_BLAS
+-- WASI-NN GGML LLAMA backend: Disable LLAMA_METAL
+-- Downloading llama.cpp source
+-- Using ccache
+-- CMAKE_SYSTEM_PROCESSOR: x86_64
+-- x86 detected
+-- Downloading SIMDJSON source
+-- Adding -Og to compile flag
+-- Downloading SIMDJSON source -- done
+-- WASI-NN: Build ggml backend for WASI-NN
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/george/LFX-Mentorship-WasmEdge-2024-01-Pre-test/WasmEdge/build
+
+[1/58] Generating build details from Git
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+[58/58] Linking CXX shared library plugins/wasi_nn/libwasmedgePluginWasiNN.so
+
+-- Install configuration: "Release"
+-- Installing: /usr/local/lib/libwasmedge.so.0.0.3
+-- Up-to-date: /usr/local/lib/libwasmedge.so.0
+-- Set runtime path of "/usr/local/lib/libwasmedge.so.0.0.3" to "$ORIGIN"
+-- Up-to-date: /usr/local/lib/libwasmedge.so
+-- Installing: /usr/local/include/wasmedge/wasmedge.h
+-- Installing: /usr/local/include/wasmedge/version.h
+-- Installing: /usr/local/include/wasmedge/enum.inc
+-- Installing: /usr/local/include/wasmedge/enum_configure.h
+-- Installing: /usr/local/include/wasmedge/enum_errcode.h
+-- Installing: /usr/local/include/wasmedge/enum_types.h
+-- Installing: /usr/local/include/wasmedge/int128.h
+-- Installing: /usr/local/lib/cmake/Llama/LlamaConfig.cmake
+-- Installing: /usr/local/lib/cmake/Llama/LlamaConfigVersion.cmake
+-- Installing: /usr/local/include/ggml.h
+-- Installing: /usr/local/include/ggml-alloc.h
+-- Installing: /usr/local/include/ggml-backend.h
+-- Installing: /usr/local/lib/libllama.a
+-- Installing: /usr/local/include/llama.h
+-- Installing: /usr/local/bin/convert.py
+-- Installing: /usr/local/bin/convert-lora-to-ggml.py
+-- Installing: /usr/local/include/simdjson.h
+-- Installing: /usr/local/lib/libsimdjson.a
+-- Installing: /usr/local/lib/cmake/simdjson/simdjson-config.cmake
+-- Installing: /usr/local/lib/cmake/simdjson/simdjson-config-version.cmake
+-- Installing: /usr/local/lib/cmake/simdjson/simdjsonTargets.cmake
+-- Installing: /usr/local/lib/cmake/simdjson/simdjsonTargets-release.cmake
+-- Installing: /usr/local/lib/pkgconfig/simdjson.pc
+-- Installing: /usr/local/lib/wasmedge/libwasmedgePluginWasiNN.so
+-- Set runtime path of "/usr/local/lib/wasmedge/libwasmedgePluginWasiNN.so" to "$ORIGIN"
+-- Installing: /usr/local/bin/wasmedgec
+-- Set runtime path of "/usr/local/bin/wasmedgec" to "$ORIGIN/../lib"
+-- Installing: /usr/local/bin/wasmedge
+-- Set runtime path of "/usr/local/bin/wasmedge" to "$ORIGIN/../lib"
