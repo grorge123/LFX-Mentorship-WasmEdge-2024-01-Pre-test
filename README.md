@@ -48,7 +48,8 @@ git clone https://huggingface.co/Intel/neural-chat-7b-v3-1
 
 <!-- TOC --><a name="run-example"></a>
 ## Run Example
-I modify the example code from the repository to let it show the readable output.
+I choose to run Transformers-based extension APIs example.
+And I modify the example code from the repository to let it show the readable output.
 
 ``` python
 from transformers import AutoTokenizer
@@ -124,10 +125,12 @@ sudo cmake --install build
 
 ```
 
-The detailed log message in [here](build_wasm_log.txt)
+The detailed log message in [here](build_wasm_log.txt) .
 
 <!-- TOC --><a name="download-model-and-excute"></a>
 ## Download model and Excute
+I choose llama-2-7b-chat.Q5_K_M model. <br>
+The detailed running process following here.
 
 ``` shell
 cd llama
